@@ -1,6 +1,6 @@
 #include<iostream.h>
 #include<conio.h>
-void main()
+intmain()
 {
 	clrscr();
 	int a, b, x, y, t, hcf, lcm;
@@ -18,5 +18,5 @@ void main()
 	lcm=(x*y)/hcf;
 	cout<<"HCF = "<<hcf<<"\n"
 	cout<<"LCM = "<<lcm<<"\n";
-	getch();
+	return 0;
 }
