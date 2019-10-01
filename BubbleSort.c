@@ -11,10 +11,10 @@ void printArray(int *arr, int n)
     printf(" }");
 }
 
-void bubbleSort(int *arr, int n)
+void bubbleSort(int *arr, int n)// function
 {
     int i, j, temp;
-    for(i=0; i<n; ++i)
+    for(i=0; i<n; ++i)//for looping
     {
         for(j=0; j<n-i-1; ++j)
         {
@@ -28,7 +28,7 @@ void bubbleSort(int *arr, int n)
     }
 }
 
-int main()
+int main()// function
 {
     int n, i;
     do
@@ -50,7 +50,7 @@ int main()
 
     bubbleSort(arr, n);
 
-    printf("\nDisplaying sorted array...");
+    printf("\nDisplaying sorted array...");//Printing 
     printArray(arr, n);
 
     return 0;
